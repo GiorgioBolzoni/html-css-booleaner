@@ -42,6 +42,7 @@ main{
 #title-image1{
     padding: 1%;
     width: 35%;
+    margin-right: 0;
 }
 #title-image2{
     padding: 1%;
@@ -49,6 +50,7 @@ main{
 }
 .caption{
     font-size: 0.3em;
+    width: 400px;
 }
 p{
     margin-top: 2%;
@@ -57,15 +59,17 @@ p{
     background-color: yellow;
 }
 table{
-    width: 100%;margin: auto;
+    width: 100%;
+    margin: auto;
     text-align: left;
+    border-collapse: collapse;
 }
 #table-head{
     background-color: #20A9E5;
     color: white;
 }
-tr{
-    height: 20%;
+td{
+    padding: 0;
 }
 .table-background-blu{
     background-color:#B1E5F2;
