@@ -58,3 +58,16 @@ p{
 .text-yellow{
     background-color: yellow;
 }
+table{
+    width: 100%;margin: auto;
+}
+#table-head{
+    background-color: #20A9E5;
+    color: white;
+}
+tr{
+    height: 20%;
+}
+.table-background-blu{
+    background-color:#B1E5F2;
+}
