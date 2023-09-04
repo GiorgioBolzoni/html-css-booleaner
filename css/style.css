@@ -15,5 +15,40 @@ header{
 width: 20%;
 height: 10%;
 margin-top: 5%;
+margin-left: 1%;
+}
+
+main{
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size:small;
+}
+#main-title{
+    font-size: 3em;
+}
+.references{
+    font-size: 0.8em;
+    color: grey;
+}
+.references span{
+    color: #3AB3E8;
+}
+.date{
+    font-size:0.5em;
+}
+#section-title-image{
+    margin: 1%;
+}
+#title-image1{
+    padding: 1%;
+    width: 35%;
+}
+#title-image2{
+    padding: 1%;
+    width: 35%;
+   
+}
+.caption{
+    font-size: 0.3em;
 }
 
