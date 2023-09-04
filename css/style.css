@@ -51,4 +51,10 @@ main{
 .caption{
     font-size: 0.3em;
 }
-
+p{
+    margin-top: 2%;
+    margin-top: 2%;
+}
+.text-yellow{
+    background-color: yellow;
+}
