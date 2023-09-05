@@ -9,9 +9,9 @@
 <body>
     <!-- inizio header -->
     <header>
-        <section id="section-booleaner">
+        <div id="section-booleaner">
             <img src="img/logo.svg" alt="logo" id="logo-booleaner">
-        </section>    
+        </div>    
     </header>
     <!-- fine header -->
 
@@ -19,16 +19,17 @@
     <main>
         <section >
             <h1 id="main-title">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-            <p class="references"><strong>Scritto da <span>The Booleaner</span></strong></p>
-            <p class="references date"><strong>il 10/10/2020</strong></p>
+            <div class="references"><strong>Scritto da <span>The Booleaner</span></strong></div>
+            <div class="references date"><strong>il 10/10/2020</strong></div>
 
             <section id="section-title-image">
                 <img src="img/tim-1.jpg" alt="photo-1" id="title-image1">
                 <img src="img/tim-2.jpg" alt="photo-2" id="title-image2">
-                    <p id="caption">
-                        <div>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div>             
-                        <div>2nd Photo: Wikimedia, by Paul Clarke</div> 
-                    </p>
+                    <figcaption id="caption">
+                        1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen           
+                        <br>
+                        2nd Photo: Wikimedia, by Paul Clarke 
+                    </figcaption>
                 
                 <!-- sistemare!!!!!!!!!!!!!!!!!!!!!!! -->
             </section>       
@@ -48,9 +49,11 @@
             <section id="table-text">
                 <table> <!--togliere spazi-->
                     <thead id="table-head">
-                        <th>Lorem, ipsum dolor.</th>
-                        <th>Lorem, ipsum dolor.</th>
-                        <th>Lorem, ipsum dolor.</th>
+                        <tr>
+                            <th>Lorem, ipsum dolor.</th>
+                            <th>Lorem, ipsum dolor.</th>
+                            <th class="last-td">Lorem, ipsum dolor.</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr class="table-background-blu">

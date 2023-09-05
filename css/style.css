@@ -39,20 +39,11 @@ main{
 #section-title-image{
     margin: 1%;
 }
-#title-image1{
-    padding: 1%;
-    width: 35%;
-    margin-right: 0;
-}
-#title-image2{
-    padding: 1%;
-    width: 35%;
-}
 p{
     margin-top: 2%;
 }
 #caption{
-    font-size:0.1em;
+    font-size:0.8em;
     margin-top: 0.5%;
 }
 .text-yellow{
@@ -67,6 +58,9 @@ table{
 #table-head{
     background-color: #20A9E5;
     color: white;
+}
+.last-td{
+    width: 50%;
 }
 .table-background-blu{
     background-color:#B1E5F2;
